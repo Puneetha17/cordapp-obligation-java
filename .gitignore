@@ -74,6 +74,3 @@ crashlytics-build.properties
 
 # docs related
 docs/virtualenv/
-
-# if you use the installQuasar task
-lib
