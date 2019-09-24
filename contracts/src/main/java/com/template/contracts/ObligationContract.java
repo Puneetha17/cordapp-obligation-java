@@ -24,7 +24,7 @@ import static net.corda.core.contracts.Structures.withoutIssuer;
 import static net.corda.finance.contracts.utils.StateSumming.sumCash;
 
 public class ObligationContract implements Contract {
-    public static final String OBLIGATION_CONTRACT_ID = "net.corda.examples.obligation.ObligationContract";
+    public static final String OBLIGATION_CONTRACT_ID = "com.template.contracts.ObligationContract";
 
     public interface Commands extends CommandData {
         class Issue extends TypeOnlyCommandData implements Commands {
